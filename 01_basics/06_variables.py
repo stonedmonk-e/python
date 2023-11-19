@@ -25,11 +25,21 @@ x = 4       # x is of type int
 x = "Sally" # x is now of type str
 print(x)
 
+# Casting
 # If you want to specify the data type of a variable, this can be done with casting.
+# Casting is done using constructor functions => int(), float(), str()
 
-x = str(3)   # '3'
-y = int(4)   # 3
-z = float(3) # 3.0
+x1 = str(3)   # '3'
+x2 = str("s1") # 's1'
+x3 = str(3.0) # 3.0
+
+y1 = int(4)   # 3
+y2 = int(2.8) # 2
+y3 = int("69") # 69
+
+z1 = float(3) # 3.0
+z2 = float("4.56") # 4.56
+z3 = float("3") # 3.0
 
 # String variables can be declared either by using single or double quotes:
 
